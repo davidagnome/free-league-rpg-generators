@@ -1,0 +1,1 @@
+.navigation-list {list-style: none;} .navigation-list li {display: inline-flex; padding-left: 1rem;} .navigation-title {font-weight: bold; text-transform: uppercase; color: #18121E;} .button, button, input[type='button'], input[type='reset'], input[type='submit'] {border: rgb(247, 130, 36);background-color: rgb(247, 130, 36);}.active {color: rgb(247, 130, 36);}

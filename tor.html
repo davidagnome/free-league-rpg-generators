@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The One Ring - Free League Random Generators</title>
+		<link rel="stylesheet" href="vendor/milligram/milligram.min.css">
+		<link rel="stylesheet" href="css/app.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<nav class="navigation">
+			<section class="container">
+				<a href="#" class="navigation-title">Free League Random Generators</a>
+				<ul class="navigation-list float-right">
+					<li><a href="index.html">Overview</a></li>
+					<li><a href="universal.html">Universal</a></li>
+					<li><a href="fl.html">Forbidden Lands</a></li> 
+					<li><a href="tor.html" class="active">The One Ring</a></li>
+			</section>
+		</nav>
+		<form method="get" onsubmit="return false;" class="container">
+			<div class="row">
+				<div class="column">
+					<h1>The One Ring 2nd Edition Generators</h1>
+					<p></p>
+					<h2>Adventure Sites</h2>
+					<div class="input-group fluid">
+						<textarea id="tor_site_output" cols="100" rows="5" wrap="hard" class="fluid"></textarea>
+					</div>
+					<p><input type="button" value="Generate an Adventure Site" onclick="more_tor_sites('');" /></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<h2>Characters</h2>
+					<div class="input-group fluid">
+						<textarea id="tor_character_output" cols="100" rows="5" wrap="hard" class="fluid"></textarea>
+					</div>
+					<p><input type="button" value="Generate a Character" onclick="more_tor_characters('');" /></p>
+				</div>
+			</div>
+		</form>
+		<footer>
+			<p>based on public domain source code by drow (drow@bin.sh). no implication of endorsement. See http://creativecommons.org/publicdomain/zero/1.0/</p>
+		</footer>
+		<script type="text/javascript" src="random_generator.js"></script>
+		<script type="text/javascript" src="random_data.js"></script>
+		<script type="text/javascript" src="random_data_tor.js"></script>
+	</body>
+</html>
