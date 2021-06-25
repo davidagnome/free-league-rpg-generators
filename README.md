@@ -16,4 +16,4 @@ The Party (Works)
 Individual Attribute Generators (Works)
 
 # Screenshot
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![Screenshot of the Adventure Site and Character Generator](https://github.com/davidagnome/free-league-rpg-generators/blob/main/tor_screenshot.png?raw=true)
