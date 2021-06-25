@@ -128,6 +128,15 @@ function more_tor_characters(){
 };
 
 
+function more_fl_sites(){
+    var a=document.getElementById("fl_site_output"),b=parseInt(a.rows);
+    if(b<1)b=1;
+    b=generate_list("fl_sites",b);
+    b=JSON.parse(JSON.stringify(b));
+    a.value=b.join("\n\n");
+};
+
+
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 function more_gender(){
     var a=document.getElementById("gender"),b=parseInt(a.rows);

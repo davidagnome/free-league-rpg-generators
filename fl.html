@@ -20,15 +20,22 @@
 		<form method="get" onsubmit="return false;" class="container">
 			<div class="row">
 				<div class="column">
+					<h2>Adventure Sites</h2>
+					<div class="input-group fluid">
+						<textarea id="fl_site_output" cols="100" rows="5" wrap="hard" class="fluid"></textarea>
+					</div>
+					<p><input type="button" value="Generate Adventure Sites" onclick="more_fl_sites('');" /></p>
 					<h2>Five Random Plots</h2>
 					<div class="input-group fluid">
 						<textarea id="plot_output" cols="100" rows="5" wrap="hard" class="fluid"></textarea>
 					</div>
-					<p><input type="button" value="Generate another journey" onclick="more_plot('');" /></p>
+					<p><input type="button" value="Generate a Plot Thread" onclick="more_plot('');" /></p>
 				</div>
 			</div>
 		</form>
 		<footer>
+			<p>The above generators are non-commercial, personal use only and constitute fair-use.</p>
+			<p>The One Ring, Shire, Middle-earth, Hobbit, and The Lord of the Rings and the characters, items, events and places therein are trademarks or registered trademarks of The Saul Zaentz Company d/b/a Middle-earth Enterprises and are used under license by Sophisticated Games Ltd. and their respective licensees.</p>
 			<p>based on public domain source code by drow (drow@bin.sh). no implication of endorsement. See http://creativecommons.org/publicdomain/zero/1.0/</p>
 		</footer>
 		<script type="text/javascript" src="random_generator.js"></script>
