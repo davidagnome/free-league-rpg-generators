@@ -38,16 +38,16 @@ gen_data['fl_dungeon_purpose'] = {
 
 gen_data['fl_dungeon_builder'] = {
   '1-3': 'No one built it. It naturally formed',
-  '4-5': 'Elves crafted it for {fl_dungeon_why}',
-  '6-14': 'Dwarves forged it for {fl_dungeon_why}',
-  '15-16': 'Orcs conquered it out as {fl_dungeon_why}',
-  '17-18': 'Priests summoned it in {fl_dungeon_why}',
-  '19-21': 'Cults indoctrinated people there out of {fl_dungeon_why}',
-  '22-30': 'A Sorceror studied here out of {fl_dungeon_why}',
-  '31-33': 'Warrior founded it for {fl_dungeon_why}',
-  '34-44': 'Noble desired it for {fl_dungeon_why}',
-  '45-48': 'A Bandit Chief, out of {fl_dungeon_why}, built it',
-  '49-50': 'Demon summoned it in {fl_dungeon_why}'
+  '4-5': 'Elves crafted it for {fl_dungeon_why} but it was {fl_dungeon_history}',
+  '6-14': 'Dwarves forged it for {fl_dungeon_why} but it was {fl_dungeon_history}',
+  '15-16': 'Orcs conquered it out as {fl_dungeon_why} but it was {fl_dungeon_history}',
+  '17-18': 'Priests summoned it in {fl_dungeon_why} but it was {fl_dungeon_history}',
+  '19-21': 'Cults indoctrinated people there out of {fl_dungeon_why} but it was {fl_dungeon_history}',
+  '22-30': 'A Sorceror studied here out of {fl_dungeon_why} but it was {fl_dungeon_history}',
+  '31-33': 'Warrior founded it for {fl_dungeon_why} but it was {fl_dungeon_history}',
+  '34-44': 'Noble desired it for {fl_dungeon_why} but it was {fl_dungeon_history}',
+  '45-48': 'A Bandit Chief, out of {fl_dungeon_why}, built it. It was {fl_dungeon_history}',
+  '49-50': 'Demon summoned it in {fl_dungeon_why}. It was {fl_dungeon_history}'
 };
 
 gen_data['fl_dungeon_why'] = {
@@ -61,6 +61,19 @@ gen_data['fl_dungeon_why'] = {
   '28-38': 'might',
   '39-43': 'survival',
   '44-45': 'passion'
+};
+
+gen_data['fl_dungeon_history'] = {
+  '1-2': 'ravaged by disease',
+  '3-10': 'perished during a flood',
+  '11-12': 'beset by hunger until its inhabitants died',
+  '13-14': 'wiped out by magical experiments',
+  '15-17': 'depleted of resources and original inhabitants left the dungeon',
+  '18-24': 'cleared of denizens by a strange artifact',
+  '25-27': 'haunted by its restless builders',
+  '28-38': 'invaded by enemies',
+  '39-43': 'invaded by demons',
+  '44-45': 'never unoccupied since.'
 };
 
 gen_data['fl_site_age'] = {
