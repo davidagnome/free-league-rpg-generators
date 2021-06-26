@@ -1776,6 +1776,15 @@ gen_data['ruin'] = [
   'battlefield'
 ];
 
+gen_data['d6'] = [
+  '1',
+  '2',
+  '3',
+  '4',
+  '5',
+  '6'
+];
+
 gen_data['me_age'] = [
   'First Age',
   'Second Age',
@@ -1824,7 +1833,6 @@ gen_data['site_oddity'] = {
   '33-34': 'remains decorated with skulls',
   '35-36': 'is overgrown'
 };
-
 
 gen_data['color'] = [
   'Red',

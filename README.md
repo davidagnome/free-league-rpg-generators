@@ -7,9 +7,10 @@
 - Character Background Generators (Works)
 
 ## Forbidden Lands (Partial)
-- Adventure Site Generators (Not Implemented)
+- Adventure Site Generators (Villages only; others not yet implemented)
+- Inns (Works)
 - Random Plots (Works)
-- Character Background Generators (Not Implemented)
+- Character Background Generators (Not yet implemented)
 
 ## Universal
 - The Party (Works)

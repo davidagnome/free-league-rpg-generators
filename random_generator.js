@@ -127,15 +127,22 @@ function more_tor_characters(){
     a.value=b.join("\n");
 };
 
-
 function more_fl_sites(){
     var a=document.getElementById("fl_site_output"),b=parseInt(a.rows);
     if(b<1)b=1;
-    b=generate_list("fl_sites",b);
+    b=generate_list("fl_adventure_site_type",b);
     b=JSON.parse(JSON.stringify(b));
     a.value=b.join("\n\n");
 };
 
+
+function more_fl_inns(){
+    var a=document.getElementById("fl_inn_output"),b=parseInt(a.rows);
+    if(b<1)b=1;
+    b=generate_list("fl_inn",b);
+    b=JSON.parse(JSON.stringify(b));
+    a.value=b.join("\n\n");
+};
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 function more_gender(){
