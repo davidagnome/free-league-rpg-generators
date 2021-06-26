@@ -8,9 +8,9 @@
 // http://en.wikipedia.org/wiki/JSON
 
 gen_data['fl_adventure_site_type'] = {
-  '1-2': 'This village is {fl_village_size}. Formed {fl_village_age}, it is led by {fl_village_ruler_type}. Facing threats from {fl_village_problem}, it is nonetheless known for its {fl_village_fame} and {fl_village_oddity}.',
-  '3-4': 'This dungeon is ...',
-  '5-6': 'This city is...'
+  '1-2': 'This village is {fl_village_size}. Formed {fl_site_age}, it is led by {fl_village_ruler_type}. Facing threats from {fl_village_problem}, it is nonetheless known for its {fl_village_fame} and {fl_village_oddity}.',
+  '3-4': 'Founded {fl_site_age}, this {fl_dungeon_size} dungeon was originally a {fl_dungeon_purpose}. {fl_dungeon_builder}.',
+  '5-6': 'This city is (still being implemented)'
 };
 
 gen_data['fl_village_size'] = {
@@ -19,11 +19,56 @@ gen_data['fl_village_size'] = {
   '5-6': 'a town of 100-400 inhabitants. It features {fl_village_institution}, {fl_village_institution}, {fl_village_institution}, {fl_village_institution}, {fl_village_institution}, {fl_village_institution}, and {fl_village_institution}'
 };
 
-gen_data['fl_village_age'] = {
-  '1-4': 'before the Blood Mist, some 300-1,100 years ago',
-  '5-8': 'during the Alder Wars, some 305-360 years ago',
-  '9-38': 'during the Blood Mist, 5-280 years ago',
-  '39-45': 'after the Bloood Mist, {d6} years ago'
+gen_data['fl_dungeon_size'] = {
+  '1-2': 'small',
+  '3-4': 'average',
+  '5': 'large',
+  '6': 'huge'
+};
+
+gen_data['fl_dungeon_purpose'] = {
+  '1-4': 'Temple',
+  '5-14': 'Stronghold',
+  '15-26': 'Living Area',
+  '27-31': 'Hiding Place',
+  '32-39': 'Mine',
+  '40-42': 'Prison',
+  '43-52': 'Tomb'
+};
+
+gen_data['fl_dungeon_builder'] = {
+  '1-3': 'No one built it. It naturally formed',
+  '4-5': 'Elves crafted it for {fl_dungeon_why}',
+  '6-14': 'Dwarves forged it for {fl_dungeon_why}',
+  '15-16': 'Orcs conquered it out as {fl_dungeon_why}',
+  '17-18': 'Priests summoned it in {fl_dungeon_why}',
+  '19-21': 'Cults indoctrinated people there out of {fl_dungeon_why}',
+  '22-30': 'A Sorceror studied here out of {fl_dungeon_why}',
+  '31-33': 'Warrior founded it for {fl_dungeon_why}',
+  '34-44': 'Noble desired it for {fl_dungeon_why}',
+  '45-48': 'A Bandit Chief, out of {fl_dungeon_why}, built it',
+  '49-50': 'Demon summoned it in {fl_dungeon_why}'
+};
+
+gen_data['fl_dungeon_why'] = {
+  '1-2': 'vengeance',
+  '3-10': 'greed',
+  '11-12': 'fear',
+  '13-14': 'faith',
+  '15-17': 'a gift',
+  '18-24': 'loneliness',
+  '25-27': 'a monument',
+  '28-38': 'might',
+  '39-43': 'survival',
+  '44-45': 'passion'
+};
+
+gen_data['fl_site_age'] = {
+  '1-4': 'before the Shift, over 1,100 years ago',
+  '5-8': 'before the Blood Mist, some 300-1,100 years ago',
+  '8-12': 'during the Alder Wars, some 305-360 years ago',
+  '13-44': 'during the Blood Mist, 5-280 years ago',
+  '43-48': 'after the Bloood Mist, {d6} years ago'
 };
 
 gen_data['fl_village_ruler_oddity'] =  {
