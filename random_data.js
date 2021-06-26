@@ -709,7 +709,7 @@ gen_data['ethnicity'] = {
 '369':  'nun',
 '370':  'paladin',
 '371':  'pardoner',
-'372':  'priest/priestess of {faerun_gods}',
+'372':  'priest/priestess of {fl_gods}',
 '373':  'prophet',
 '374':  'sexton',
 '375':  'templar',
@@ -1297,42 +1297,47 @@ gen_data['ethnicity'] = {
     '132':  'depression'
   };
 
-gen_data['faerun_region'] = [
-    'Icewind Dale',
-    'the Sword Coast',
-    'the Silver Marches',
-    'Amn',
-    'Calimshan',
-    'Tethyr',
-    'Thindol',
-    'Samarach',
-    'Anauroch',
-    'Cormyr',
-    'Sembia',
-    'Impiltur',
-    'Damara',
-    'Vaasa',
-    'Narfell',
-    'the Great Dale',
-    'the Endless Wastes',
-    'Thay',
-    'Algarond',
-    'Altumbel',
-    'Mulhorand',
-    'Unther',
-    'Chessenta',
-    'Chondath',
-    'the Shar',
-    'Halruaa',
-    'Lapaliiya',
-    'Dambrath',
-    'Estagund',
-    'Dambrath',
-    'Durpar',
-    'Lantan',
-    'the Moonshae Isles',
-    'the Pirate Isles',
-    'Murghom'
+gen_data['fl_region'] = [
+    'Far Vivend',
+    'Meliwater',
+    'Maidenholm',
+    'Stillmist',
+    'Anger Bay',
+    'Elya River',
+    'The Tin',
+    'Margelda',
+    'The Blush',
+    'Backwater Bay',
+    'Falender',
+    'Yendra',
+    'Yender',
+    'Shroud',
+    'Wailer\s Hold',
+    'Belifar',
+    'Lake Mill',
+    'Fangwood',
+    'Rage Furrow',
+    'Groveland Woods',
+    'The Divide',
+    'The Iron Lock',
+    'Begrand',
+    'Harga',
+    'Alderstone',
+    'Thynde Range',
+    'Blaudwater',
+    'Arina Forest',
+    'The Seyster',
+    'Harmsmoor',
+    'Foolswater',
+    'Lake Claye',
+    'The Wash',
+    'Coldwater',
+    'Gargan Marshes',
+    'Crombe',
+    'Varassa',
+    'Lake Varda',
+    'Belderand',
+    'Foolswater'
 ];
 
 gen_data['faerun_cities'] = [
@@ -1360,54 +1365,20 @@ gen_data['faerun_organization'] = {
 	'03':	'Emerald Enclave',
 	'04':	'Lords\' Alliance',
 	'05':	'Zhentarim',
-	'06-15':	'{faerun_gods}'
+	'06-15':	'{fl_gods}'
 };
 
-gen_data['faerun_gods'] = [
-    'Arvandor',
-    'Corellon Larethian',
-    'Banehold',
-    'Bane',
-    'Celestia',
-    'Torm',
-    'The Deep Wilds',
-    'Silvanus',
-    'The Demonweb Pits',
-    'Lolth',
-    'The Dismal Caverns',
-    'Ghaunadaur',
-    'Dwarfhome',
-    'Moradin',
-    'Eternal Sun',
-    'Amaunator',
-    'The Fugue Plane',
-    'Kelemvor',
-    'Gates of the Moon',
-    'Selune',
-    'Sune',
-    'Green Fields',
-    'Chauntea',
-    'House of Knowledge',
-    'The Nine Hells',
-    'Asmodeus',
-    'Nishrek',
-    'Gruumsh',
-    'The Supreme Throne',
-    'Cyric',
-    'Towers of the Night',
-    'Shar',
-    'Warrior\'s Rest',
-    'Tempus',
-    'Akadi',
-    'Grumbar', 
-    'Kossuth',
-    'Istishia',
-    'Annam All-Father',
-    'Memnor',
-    'Grolantor',
-    'Skoraeus Stonebones',
-    'Surtr',
-    'Thrym'
+gen_data['fl_gods'] = [
+    'Wyrm',
+    'The Protector God',
+    'Raven',
+    'Rust and Heme',
+    'Clay',
+    'Clear',
+    'Horn',
+    'Eor',
+    'Nightwalker',
+    'Shardmaiden'
 ];
 
 
@@ -1424,7 +1395,7 @@ gen_data['dream_plot'] = [
 	'Dreaming, you find yourself in a {biome} {settlement}, a {descriptor} {tarot_arcana} rests {direction}.',
 	'As your eyes close, you see a {archetype} holding {object}. You sense that they seek to {motivation}.',
 	'You wake in a cold sweat. Feelings of {fear} cloud your mind.',
-	'An image of {faerun_gods} appears. It commands you to {motivation} in {faerun_region}.'
+	'An image of {fl_gods} appears. It commands you to {motivation} in {fl_region}.'
 ];
 
 gen_data['distress_plot'] = [
@@ -1447,9 +1418,9 @@ gen_data['crime_plot'] = [
 ];
 
 gen_data['political_plot'] = [
-	'News arrives that a {political_conflict} between {faerun_region} and {faerun_region}.',
+	'News arrives that a {political_conflict} between {fl_region} and {fl_region}.',
 	'{faerun_cities} begs for aid as a {political_conflict}.',
-	'The {group} arrive in {faerun_region}.'
+	'The {group} arrive in {fl_region}.'
 ];
 
 gen_data['political_conflict'] = [
@@ -1464,8 +1435,8 @@ gen_data['political_conflict'] = [
 	'a ruler dies',
 	'disputed claim to succession',
 	'{cultural_adjective} {military_unit} {military_verb}',
-	'cult of {faerun_gods} emerges',
-	'herectic of {faerun_gods} damages the faith',
+	'cult of {fl_gods} emerges',
+	'herectic of {fl_gods} damages the faith',
 	'economic calamity hits',
 	'a ruler\'s {crime_type} threatens a diplomatic incident'
 ];
@@ -1516,8 +1487,8 @@ gen_data['group']  = [
 
 
 gen_data['social_unit']  = [
-	'{faerun_region} refugees',
-	'{faerun_gods} pilgrims',
+	'{fl_region} refugees',
+	'{fl_gods} pilgrims',
 	'{cultural_adjective} peasants'
 ];
 
