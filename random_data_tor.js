@@ -20,7 +20,7 @@ gen_data['tor_sites'] = {
 
 gen_data['eriador'] = [
   'The site {site_position} {number} {units} {cardinal_directions} of {eriador_site}. It is a {site_occupancy} {ruin} by {eriador_factions}. It remains {site_condition}.',
-  '{built_synonyms} in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} {story_frequency} in nearby {eriador_site}. The reason for its existence was to {motivation}.',
+  'While {built_synonyms} in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} {story_frequency} in nearby {eriador_site}. The reason for its existence was to {motivation}.',
   'You have heard {tale_synonyms} of this {site_condition} {ruin} near {eriador_site} saying that it was {site_history}.',
   'A {archetype} from {eriador_site} say this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to {eriador_factions}.',
   '{sindarin_combo} is a {site_occupancy} {ruin} by {eriador_factions} near {eriador_site}.',
@@ -30,7 +30,7 @@ gen_data['eriador'] = [
 
 gen_data['rhovanion'] = [
   'The site {site_position} {number} {units} {cardinal_directions} of {rhovanion_site}. It is a {site_occupancy} {ruin} by {rhovanion_factions}. It remains {site_condition}.',
-  '{built_synonyms} in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} {story_frequency} in nearby {rhovanion_site}. The reason for its existence was to {motivation}.',
+  'While {built_synonyms} in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} {story_frequency} in nearby {rhovanion_site}. The reason for its existence was to {motivation}.',
   'You have heard {tale_synonyms} of this {site_condition} {ruin} near {rhovanion_site} saying that it was {site_history}.',
   'A {archetype} from nearby {rhovanion_site} say this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to {rhovanion_factions}.',
   '{sindarin_combo} is a {site_occupancy} {ruin} by {rhovanion_factions} near {rhovanion_site}.',
@@ -40,7 +40,7 @@ gen_data['rhovanion'] = [
 
 gen_data['gondor'] = [
   'The site {site_position} {number} {units} {cardinal_directions} of {gondor_site}. It is a {site_occupancy} {ruin} by {gondor_factions}. It remains {site_condition}.',
-  'Founded in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} {story_frequency} in nearby {gondor_site}. The reason for its existence was to {motivation}.',
+  'While {built_synonyms} in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} {story_frequency} in nearby {gondor_site}. The reason for its existence was to {motivation}.',
   'You heard {tale_synonyms} of this {site_condition} {ruin} near {gondor_site} saying that it was {site_history}.',
   'A {archetype} from {gondor_site} say this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to {gondor_factions}.',
   '{sindarin_combo} is a {site_occupancy} {ruin} by {gondor_factions} near {gondor_site}.',
@@ -50,7 +50,7 @@ gen_data['gondor'] = [
 
 gen_data['lindon'] = [
   'The site {site_position} {number} {units} {cardinal_directions} of {lindon_site}. It is a {site_occupancy} {ruin} by {lindon_factions}. It remains {site_condition}.',
-  '{built_synonyms} in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} {story_frequency} in nearby {lindon_site}. The reason for its existence was to {motivation}.',
+  'While {built_synonyms} in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} {story_frequency} in nearby {lindon_site}. The reason for its existence was to {motivation}.',
   'You heard {tale_synonyms} of this {site_condition} {ruin} near {lindon_site} saying that it was {site_history}.',
   'A {archetype} from {lindon_site} say this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to {lindon_factions}.',
   '{sindarin_combo} is a {site_occupancy} {ruin} by {lindon_factions} near {lindon_site}.',
@@ -60,7 +60,7 @@ gen_data['lindon'] = [
 
 gen_data['harad'] = [
   'The site {site_position} {number} {units} {cardinal_directions} of {harad_site}. It is a {site_occupancy} {ruin} by {harad_factions}. It remains {site_condition}.',
-  '{built_synonyms} in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} {story_frequency} in nearby {harad_site}. The reason for its existence was to {motivation}.',
+  'While {built_synonyms} in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} {story_frequency} in nearby {harad_site}. The reason for its existence was to {motivation}.',
   'You heard {tale_synonyms} of this {site_condition} {ruin} near {harad_site} saying that it was {site_history}.',
   'A {archetype}  from {harad_site} say this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to {harad_factions}.',
   '{sindarin_combo} is a {site_occupancy} {ruin} by {harad_factions} near {harad_site}.',
@@ -70,7 +70,7 @@ gen_data['harad'] = [
 
 gen_data['rhun'] = [
   'The site {site_position} {number} {units} {cardinal_directions} of {rhun_site}. It is a {site_occupancy} {ruin} by {rhun_factions}. It remains {site_condition}.',
-  '{built_synonyms} in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} {story_frequency} in nearby {rhun_site}. The reason for its existence was to {motivation}.',
+  'While {built_synonyms} in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} {story_frequency} in nearby {rhun_site}. The reason for its existence was to {motivation}.',
   'You heard {tale_synonyms} of this {site_condition} {ruin} near {rhun_site} saying that it was {site_history}.',
   'A {archetype} from {rhun_site} say this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to {rhun_factions}.',
   '{sindarin_combo} is a {site_occupancy} {ruin} by {rhun_factions} near {rhun_site}.',
@@ -80,7 +80,7 @@ gen_data['rhun'] = [
 
 gen_data['mordor'] = [
   'The site {site_position} {number} {units} {cardinal_directions} of {mordor_site}. It is a {site_occupancy} {ruin} by {mordor_factions}. It remains {site_condition}.',
-  '{built_synonyms} in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} {story_frequency} in the nearby {mordor_site}. The reason for its existence was to {motivation}.',
+  'Despite being {built_synonyms} in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} {story_frequency} in the nearby {mordor_site}. The reason for its existence was to {motivation}.',
   'You heard {tale_synonyms} of this {site_condition} {ruin} near {mordor_site} saying that it was {site_history}.',
   'A {archetype} from {mordor_site} says this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to {mordor_factions}.',
   '{sindarin_combo} is a {site_occupancy} {ruin} by {mordor_factions} near {mordor_site}.',
@@ -104,7 +104,7 @@ gen_data['eriador_site'] = [
   'the Trollshaws',
   'Ettenmoors',
   'Mount Gram',
-  'Carn Dum',
+  'Carn Dûm',
   'Cold Fells',
   'Eregion',
   'Annuminas',
@@ -140,7 +140,9 @@ gen_data['rhovanion_site'] = [
   'Iron Hills',
   'Wilderland',
   'Dagorlad',
-  'Cirith Gorgor'
+  'Cirith Gorgor',
+  'Lothlórien',
+  'Khazad-dûm'
 ];
 
 gen_data['rhovanion_factions'] = [
@@ -417,7 +419,7 @@ gen_data['tor_ethnicity'] = [
 'People of {harad_site}',
 'People of {mordor_site}',
 'People of {rhun_site}',
-'Elves of Lothlorien',
+'Elves of Lothlórien',
 'Elves of Lindon',
 'Elves of Rivendell'
 ];

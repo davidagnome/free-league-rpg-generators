@@ -821,8 +821,9 @@ gen_data['ethnicity'] = {
 
 gen_data['seeking_to_synonym'] = [
   'Seeking to',
-  'In an effort to',
-  'Motivated to'
+  'Driven to',
+  'Motivated to',
+  'Compelled to'
 ];
 
   gen_data['weapon'] = [
@@ -927,8 +928,8 @@ gen_data['seeking_to_synonym'] = [
 '84':   'solve a riddle',
 '85':   'stop an a prophesied event',
 '86':   'support oneself financially',
-'87':   'survive loss',
-'88':   'survive the death of a loved one',
+'87':   'cope with loss',
+'88':   'come to terms with the death of a loved one',
 '89':   'take what one is owed',
 '90':   'explore the unknown',
 '91':   'succeed where they have failed before',
@@ -1720,12 +1721,15 @@ gen_data['tale_synonyms'] = [
 ];
 
 gen_data['built_synonyms'] = [
-  'Built',
-  'Founded',
-  'Constructed',
-  'Crafted',
-  'Destroyed',
-  'Ruined'
+  'built',
+  'made',
+  'constructed',
+  'crafted',
+  'destroyed',
+  'ruined',
+  'finished',
+  'designed',
+  'founded'
 ];
 
 gen_data['site_position'] = [
