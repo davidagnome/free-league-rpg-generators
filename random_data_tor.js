@@ -107,14 +107,14 @@ gen_data['eriador_site'] = [
   'Carn Dûm',
   'Cold Fells',
   'Eregion',
-  'Annuminas',
+  'Annúminas',
   'Arthedain',
   'Tharbad'
 ];
 
 gen_data['eriador_factions'] = [
   'Hobbits of the Shire',
-  'Dunedain',
+  'Dúnedain',
   'Elves of Rivendell',
   'Orcs',
   'Angmar',
@@ -267,7 +267,7 @@ gen_data['mordor_site'] = [
 
 gen_data['mordor_factions'] = [
   'the forces of Sauron',
-  'the Ringwraiths'
+  'the Nazgûl'
 ];
 
 gen_data['sauron_forces'] = {
@@ -278,7 +278,7 @@ gen_data['sauron_forces'] = {
   '9-10': 'crebain',
   '11-12': 'wargs',
   '13-14': 'mumakil',
-  '15-16': 'Ringwraiths'
+  '15-16': 'Nazgûl'
 };
 
 gen_data['tor_mountain_encounters'] = {
@@ -289,7 +289,7 @@ gen_data['tor_mountain_encounters'] = {
   '9-10': 'eagles',
   '11-12': 'wargs',
   '13-14': 'mumakil',
-  '15-16': 'Ringwraiths'
+  '15-16': 'Nazgûl'
 };
 
 gen_data['tor_plains_encounters'] = {
@@ -299,8 +299,8 @@ gen_data['tor_plains_encounters'] = {
   '7-8': 'grim men',
   '9-10': 'eagles',
   '11-12': 'wargs',
-  '13-14': 'mumakil',
-  '15-16': 'Ringwraiths'
+  '13-14': 'Mûmakil',
+  '15-16': 'Nazgûl'
 };
 
 gen_data['tor_forest_encounters'] = {
@@ -310,8 +310,8 @@ gen_data['tor_forest_encounters'] = {
   '7-8': 'grim men',
   '9-10': 'eagles',
   '11-12': 'wargs',
-  '13-14': 'mumakil',
-  '15-16': 'Ringwraiths'
+  '13-14': 'crebain',
+  '15-16': 'Nazgûl'
 };
 
 gen_data['tor_tundra_encounters'] = {
@@ -321,8 +321,8 @@ gen_data['tor_tundra_encounters'] = {
   '7-8': 'grim men',
   '9-10': 'eagles',
   '11-12': 'wargs',
-  '13-14': 'mumakil',
-  '15-16': 'Ringwraiths'
+  '13-14': 'mammoths',
+  '15-16': 'Nazgûl'
 };
 
 gen_data['tor_swamp_encounters'] = {
@@ -333,7 +333,7 @@ gen_data['tor_swamp_encounters'] = {
   '9-10': 'eagles',
   '11-12': 'wargs',
   '13-14': 'mumakil',
-  '15-16': 'Ringwraiths'
+  '15-16': 'Nazgûl'
 };
 
 gen_data['tor_ashland_encounters'] = {
@@ -343,8 +343,8 @@ gen_data['tor_ashland_encounters'] = {
   '7-8': 'grim men',
   '9-10': 'eagles',
   '11-12': 'wargs',
-  '13-14': 'mumakil',
-  '15-16': 'Ringwraiths'
+  '13-14': 'Mûmakil',
+  '15-16': 'Nazgûl'
 };
 
 gen_data['tor_hill_encounters'] = {
@@ -354,8 +354,19 @@ gen_data['tor_hill_encounters'] = {
   '7-8': 'grim men',
   '9-10': 'eagles',
   '11-12': 'wargs',
-  '13-14': 'mumakil',
-  '15-16': 'Ringwraiths'
+  '13-14': 'crebain',
+  '15-16': 'Nazgûl'
+};
+
+gen_data['tor_hill_encounters'] = {
+  '1-2': 'orcs',
+  '3-4': 'goblins',
+  '5-6': 'Dourhand Dwarves',
+  '7-8': 'grim men',
+  '9-10': 'eagles',
+  '11-12': 'wargs',
+  '13-14': 'Mûmakil',
+  '15-16': 'Nazgûl'
 };
 
 gen_data['tor_water_encounters'] = {
@@ -365,7 +376,7 @@ gen_data['tor_water_encounters'] = {
   '7-8': 'grim men',
   '9-10': 'eagles',
   '11-12': 'wargs',
-  '13-14': 'mumakil',
+  '13-14': 'primeval whale',
   '15-16': 'Watcher'
 };
 
