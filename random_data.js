@@ -818,6 +818,13 @@ gen_data['ethnicity'] = {
     '92-94': 'splint mail',
     '95-100': 'plate mail'
   };
+
+gen_data['seeking_to_synonym'] = [
+  'Seeking to',
+  'In an effort to',
+  'Motivated to'
+];
+
   gen_data['weapon'] = [
     'a {one_handed_weapon}',
     'a {one_handed_weapon} and a {shield}',
@@ -1706,6 +1713,10 @@ gen_data['tale_synonyms'] = [
   'riddles',
   'songs',
   'idle-gossip',
+  'reports',
+  'notes',
+  'histories',
+  'tidings'
 ];
 
 gen_data['built_synonyms'] = [
@@ -1744,7 +1755,16 @@ gen_data['ruin'] = [
   'hunting lodge',
   'encampment',
   'cave',
-  'battlefield'
+  'battlefield',
+  'cairn',
+  'dam',
+  'prison',
+  'vault',
+  'armory',
+  'labyrinth',
+  'pass',
+  'shrine',
+  'forge'
 ];
 
 gen_data['d6'] = [
@@ -1767,22 +1787,35 @@ gen_data['site_history'] = {
   '1-4': 'ravaged by fire',
   '5-9': 'beset by a long and bloody siege during the {me_age}',
   '10-13': 'afflicted by a plague',
-  '14-17': 'rife with hunger and famine',
+  '14-17': 'cursed with hunger and famine',
   '18-21': 'abandoned by its builders',
-  '22-25': 'fell during a bloody revolt',
+  '22-25': 'overthrown during a bloody revolt',
   '26-29': 'conquered by enemies',
-  '30-31': 'the site of a tragic incident',
+  '30-31': 'blotted out by a tragic incident',
   '32-34': 'ravaged by years of war',
-  '35-36': 'overrun by Servants of the Shadow'
+  '35-36': 'overrun by Servants of the Shadow',
+  '37-38': 'depleted of resources before completion',
+  '39-40': 'occupied until very recently',
+  '41-42': 'haunted'
 };
 
 gen_data['site_condition'] = {
   '1-4': 'ruined',
-  '5-6': 'decayed',
-  '7-10': 'worn',
+  '5-6': 'decaying',
+  '7-10': 'aged',
   '11': 'recently used',
-  '12': 'well-kept'
+  '12': 'well-kept',
+  '13-15': 'collapsed',
+  '16': 'infested',
+  '17-18': 'haunted'
 };
+
+gen_data['story_frequency'] = [
+  'abound',
+  'circulate',
+  'spread',
+  'bear repeating'
+];
 
 gen_data['site_oddity'] = {
   '1-2': 'features odd architecture',
