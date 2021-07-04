@@ -282,102 +282,91 @@ gen_data['sauron_forces'] = {
 };
 
 gen_data['tor_mountain_encounters'] = {
-  '1-2': 'orcs',
-  '3-4': 'goblins',
-  '5-6': 'Dourhand Dwarves',
-  '7-8': 'grim men',
-  '9-10': 'eagles',
-  '11-12': 'wargs',
-  '13-14': 'mumakil',
-  '15-16': 'Nazgûl'
+  '1-50': '(mountain_encounters)',
+  '51-55': 'goblins',
+  '56-60': 'Dourhand Dwarves',
+  '61-65': 'eagles',
+  '66-70': 'Nazgûl'
 };
 
 gen_data['tor_plains_encounters'] = {
-  '1-2': 'orcs',
-  '3-4': 'goblins',
-  '5-6': 'Dourhand Dwarves',
-  '7-8': 'grim men',
-  '9-10': 'eagles',
-  '11-12': 'wargs',
-  '13-14': 'Mûmakil',
-  '15-16': 'Nazgûl'
+  '1-50': '{plains_encounters}',
+  '51-55': 'goblins',
+  '56-60': 'Dourhand Dwarves',
+  '61-65': 'eagles',
+  '66-70': 'Nazgûl'
 };
 
 gen_data['tor_forest_encounters'] = {
-  '1-2': 'orcs',
-  '3-4': 'goblins',
-  '5-6': 'Dourhand Dwarves',
-  '7-8': 'grim men',
-  '9-10': 'eagles',
-  '11-12': 'wargs',
-  '13-14': 'crebain',
-  '15-16': 'Nazgûl'
+  '1-50': '{forest_encounters}',
+  '51-55': 'goblins',
+  '56-60': 'Dourhand Dwarves',
+  '61-65': 'eagles',
+  '66-70': 'Nazgûl'
 };
 
 gen_data['tor_tundra_encounters'] = {
-  '1-2': 'orcs',
-  '3-4': 'goblins',
-  '5-6': 'Dourhand Dwarves',
-  '7-8': 'grim men',
-  '9-10': 'eagles',
-  '11-12': 'wargs',
-  '13-14': 'mammoths',
-  '15-16': 'Nazgûl'
+  '1-50': '{tundra_encounters}',
+  '51-55': 'goblins',
+  '56-60': 'Dourhand Dwarves',
+  '61-65': 'eagles',
+  '66-70': 'Nazgûl'
 };
 
 gen_data['tor_swamp_encounters'] = {
-  '1-2': 'orcs',
-  '3-4': 'goblins',
-  '5-6': 'Dourhand Dwarves',
-  '7-8': 'grim men',
-  '9-10': 'eagles',
-  '11-12': 'wargs',
-  '13-14': 'mumakil',
-  '15-16': 'Nazgûl'
+  '1-50': '{swamp_encounters}',
+  '51-55': 'goblins',
+  '56-60': 'Dourhand Dwarves',
+  '61-65': 'eagles',
+  '66-70': 'Nazgûl'
 };
 
 gen_data['tor_ashland_encounters'] = {
-  '1-2': 'orcs',
-  '3-4': 'goblins',
-  '5-6': 'Dourhand Dwarves',
-  '7-8': 'grim men',
-  '9-10': 'eagles',
-  '11-12': 'wargs',
-  '13-14': 'Mûmakil',
-  '15-16': 'Nazgûl'
+  '1-50': '{ashland_encounters}',
+  '51-55': 'goblins',
+  '56-60': 'Dourhand Dwarves',
+  '61-65': 'eagles',
+  '66-70': 'Nazgûl'
 };
 
 gen_data['tor_hill_encounters'] = {
-  '1-2': 'orcs',
-  '3-4': 'goblins',
-  '5-6': 'Dourhand Dwarves',
-  '7-8': 'grim men',
-  '9-10': 'eagles',
-  '11-12': 'wargs',
-  '13-14': 'crebain',
-  '15-16': 'Nazgûl'
+  '1-50': '{hill_encounters}',
+  '51-55': 'goblins',
+  '56-60': 'Dourhand Dwarves',
+  '61-65': 'eagles',
+  '66-70': 'Nazgûl'
 };
 
-gen_data['tor_hill_encounters'] = {
-  '1-2': 'orcs',
-  '3-4': 'goblins',
-  '5-6': 'Dourhand Dwarves',
-  '7-8': 'grim men',
-  '9-10': 'eagles',
-  '11-12': 'wargs',
-  '13-14': 'Mûmakil',
-  '15-16': 'Nazgûl'
+gen_data['tor_desert_encounters'] = {
+  '1-50': '{desert_encounters}',
+  '51-52': 'Leweglith, a sand worm',
+  '53-55': 'Mûmakil',
+  '56-70': 'Crebain',
+  '66-70': 'Nazgûl'
 };
 
 gen_data['tor_water_encounters'] = {
-  '1-2': 'orcs',
-  '3-4': 'goblins',
-  '5-6': 'Dourhand Dwarves',
-  '7-8': 'grim men',
-  '9-10': 'eagles',
-  '11-12': 'wargs',
-  '13-14': 'primeval whale',
-  '15-16': 'Watcher'
+  '1-50': '{water_encounters}',
+  '51-55': 'goblins',
+  '56-60': 'Dourhand Dwarves',
+  '61-65': 'eagles',
+  '66-70': 'Nazgûl'
+};
+
+gen_data['tor_dungeon_encounters'] = {
+  '1-50': '{dungeon_encounters}',
+  '51-55': 'goblins',
+  '56-60': 'Dourhand Dwarves',
+  '61-65': 'eagles',
+  '66-70': 'Nazgûl'
+};
+
+gen_data['tor_urban_encounters'] = {
+  '1-50': '{urban_encounters}',
+  '51-55': 'goblins',
+  '56-60': 'Dourhand Dwarves',
+  '61-65': 'eagles',
+  '66-70': 'Nazgûl'
 };
 
 gen_data['sindarin_combo'] = [

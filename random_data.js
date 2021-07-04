@@ -1855,4 +1855,124 @@ gen_data['color'] = [
   'Prismatic'
 ];
 
+
+gen_data['mountain_encounters'] = {
+  '1-2': 'orcs',
+  '3-4': 'goblins'
+};
+
+gen_data['plains_encounters'] = {
+  '1-2': 'orcs',
+  '3-4': 'goblins'
+};
+
+gen_data['forest_encounters'] = {
+  '1-2': 'orcs',
+  '3-4': 'goblins'
+};
+
+gen_data['tundra_encounters'] = {
+  '1-2': 'orcs',
+  '3-4': 'goblins'
+};
+
+gen_data['swamp_encounters'] = {
+  '1-2': 'orcs',
+  '3-4': 'goblins'
+};
+
+gen_data['ashland_encounters'] = {
+  '1-2': 'orcs',
+  '3-4': 'goblins'
+};
+
+gen_data['hill_encounters'] = {
+  '1-2': 'orcs',
+  '3-4': 'goblins'
+};
+
+gen_data['desert_encounters'] = {
+  '1-2': 'wraith',
+  '3-8': 'hyena',
+  '9-10': 'giant serpent',
+  '11-26': 'bandit',
+  '27-30': 'scorpion',
+  '21-35': 'jackal'
+};
+
+gen_data['water_encounters'] = {
+  '1-2': 'orcs',
+  '3-4': 'goblins'
+};
+
+gen_data['dungeon_encounters'] = {
+  '1-2': 'orcs',
+  '3-4': 'goblins'
+};
+
+gen_data['urban_encounters'] = {
+  '1-2': 'orcs',
+  '3-4': 'goblins'
+};
+
+gen_data['mountain_weather'] = {
+  '1-2': 'orcs',
+  '3-4': 'goblins'
+};
+
+gen_data['plains_weather'] = {
+  '1-2': 'orcs',
+  '3-4': 'goblins'
+};
+
+gen_data['forest_weather'] = {
+  '1-2': 'orcs',
+  '3-4': 'goblins'
+};
+
+gen_data['tundra_weather'] = {
+  '1-2': 'orcs',
+  '3-4': 'goblins'
+};
+
+gen_data['swamp_weather'] = {
+  '1-2': 'orcs',
+  '3-4': 'goblins'
+};
+
+gen_data['ashland_weather'] = {
+  '1-2': 'orcs',
+  '3-4': 'goblins'
+};
+
+gen_data['hill_weather'] = {
+  '1-2': 'orcs',
+  '3-4': 'goblins'
+};
+
+gen_data['desert_weather'] = {
+  '1-20': 'Unremarkle ',
+  '21-30': 'High heat',
+  '31-40': 'Extreme heat',
+  '41-46': 'sandstorm with mild winds',
+  '47-50': 'sandstorm with flensing winds',
+  '51': 'sandstorm with lightning storms',
+  '52-55': 'snow'
+};
+
+gen_data['water_weather'] = {
+  '1-2': 'orcs',
+  '3-4': 'goblins'
+};
+
+gen_data['dungeon_weather'] = {
+  '1-2': 'orcs',
+  '3-4': 'goblins'
+};
+
+gen_data['urban_weather'] = {
+  '1-2': 'orcs',
+  '3-4': 'goblins'
+};
+
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
