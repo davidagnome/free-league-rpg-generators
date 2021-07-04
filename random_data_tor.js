@@ -7,6 +7,36 @@
 // json format
 // http://en.wikipedia.org/wiki/JSON
 
+gen_data['tor_pc_heroic_cultures'] = [
+  'Barding',
+  'Dwarf of Durin\'s Folk',
+  'Elf of Lindon',
+  'Hobbit of the Shire',
+  'Breelander',
+  'Ranger of the North'
+];
+
+gen_data['tor_pc_callings'] = [
+  'Captain',
+  'Champion',
+  'Messenger',
+  'Scholar',
+  'Treasure Hunter',
+  'Warden'
+];
+
+gen_data['tor_pc_barding_attr'] = [
+  'Strength 5, Heart 7, Wits 2',
+  'Strength 4, Heart 7, Wits 3',
+  'Strength 5, Heart 6, Wits 3',
+  'Strength 4, Heart 6, Wits 4',
+  'Strength 5, Heart 5, Wits 4',
+  'Strength 6, Heart 6, Wits 2'
+];
+
+gen_data['tor_pc_derived_stats'] = [
+  'Endurance of Strength+20. Hope of Heart+8. Parry of Wits+12'
+];
  
 gen_data['tor_sites'] = {
   '1-40':  '{eriador}',
